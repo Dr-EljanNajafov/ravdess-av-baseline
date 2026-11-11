@@ -1,0 +1,11 @@
+numpy>=1.24
+scikit-learn>=1.3
+pandas>=2.0
+matplotlib>=3.7
+pytest>=7.0
+# feature extraction (GPU step on Kaggle; most are preinstalled there)
+torch
+transformers>=4.40
+opencv-python-headless>=4.8
+soundfile>=0.12
+requests>=2.31

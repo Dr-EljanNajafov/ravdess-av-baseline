@@ -1,0 +1,18 @@
+# Raw data and derived features are NOT committed:
+# RAVDESS is licensed CC BY-NC-SA 4.0 and must be downloaded from Zenodo.
+data/
+features/
+*.zip
+*.mp4
+*.wav
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets (never commit)
+.env
+*.token
